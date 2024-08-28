@@ -6,7 +6,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["/sonar-plugin-api/", "ch.qos.logback:logback-classic"],
+      "matchPackageNames": ["/sonar-plugin-api/"],
       "groupName": "plugin-api",
       "enabled": false
     },
@@ -15,7 +15,7 @@
       "groupName": "sonar"
     },
     {
-      "matchPackageNames": [".*"],
+      "matchPackageNames": ["ch.qos.logback:logback-classic"],
       "groupName": "otherss"
     }
   ]
