@@ -13,6 +13,10 @@
     {
       "matchPackageNames": ["/sonar-.*/"],
       "groupName": "sonar"
+    },
+    {
+      "matchPackageNames": [".*"],
+      "groupName": "otherss"
     }
   ]
 }
