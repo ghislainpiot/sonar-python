@@ -15,9 +15,8 @@
       "groupName": "sonar"
     },
     {
-      "matchPackageNames": ["ch.qos.logback:logback-classic"],
-      "groupName": "otherss",
-      "enabled": true
+      "matchPackageNames": ["org.codehaus.mojo:build-helper-maven-plugin"],
+      "groupName": "otherss"
     }
   ]
 }
