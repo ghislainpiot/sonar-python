@@ -16,7 +16,8 @@
     },
     {
       "matchPackageNames": ["ch.qos.logback:logback-classic"],
-      "groupName": "otherss"
+      "groupName": "otherss",
+      "enabled": true
     }
   ]
 }
