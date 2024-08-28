@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["maven"],
+  "ignorePaths": [
+    "python-frontend/typeshed_serializer/**"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["/sonar-plugin-api/"],
+      "groupName": "plugin-api",
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["/sonar-.*/"],
+      "groupName": "sonar"
+    }
+  ]
+}
